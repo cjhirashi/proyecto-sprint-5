@@ -76,8 +76,8 @@ El proyecto utiliza 5 tablas principales:
 1. **Clonar repositorio**
 
    ```bash
-   git clone https://github.com/cjhirashi/megaline-tarifas.git
-   cd megaline-tarifas
+   git clone https://github.com/cjhirashi/proyecto-sprint-5
+   proyecto-sprint-5
    ```
 
 2. **Abrir notebook en Jupyter**
