@@ -54,7 +54,6 @@ El proyecto utiliza 5 tablas principales:
 * [Pandas](https://pandas.pydata.org/) – Análisis y manipulación de datos
 * [NumPy](https://numpy.org/) – Operaciones numéricas y estadísticas
 * [Matplotlib](https://matplotlib.org/) – Visualización de datos
-* [Seaborn](https://seaborn.pydata.org/) – Gráficos estadísticos
 * [SciPy](https://scipy.org/) – Pruebas de hipótesis y estadística
 * [Jupyter Notebook](https://jupyter.org/) – Entorno de desarrollo interactivo
 * [Pipenv](https://pipenv.pypa.io/en/latest/) – Gestión de entornos y dependencias
