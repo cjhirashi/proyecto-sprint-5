@@ -64,6 +64,7 @@ El proyecto utiliza 5 tablas principales:
 │   ├── megaline_messages.csv
 │   ├── megaline_plans.csv
 │   └── megaline_users.csv
+│   └── README.md
 ├── notebooks/
 │   └── megaline_analysis.ipynb   # Notebook principal del proyecto
 └── README.md
