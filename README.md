@@ -3,16 +3,22 @@
 [![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)](https://www.python.org/)
 [![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green?logo=pandas)](https://pandas.pydata.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)](https://jupyter.org/)
-[![Status](https://img.shields.io/badge/Project-Sprint%208-blueviolet)]()
+[![Pipenv](https://img.shields.io/badge/Pipenv-Environment-lightgrey?logo=pypi)](https://pipenv.pypa.io/en/latest/)
+[![Status](https://img.shields.io/badge/Project-Sprint%205-blueviolet)]()
 
 ---
 
 ## 🚀 Descripción
 
-Este proyecto forma parte del **Sprint 8 del programa de Ciencia de Datos en TripleTen**.
+Este proyecto forma parte del **Sprint 5 del programa de Ciencia de Datos en TripleTen**.
 El objetivo es realizar un **análisis preliminar de las tarifas de prepago "Surf" y "Ultimate" de la compañía Megaline**, con el fin de determinar cuál de los planes genera **mayores ingresos** y así optimizar la estrategia de marketing y publicidad.
 
 Se trabaja con un conjunto de datos de **500 clientes** de 2018, incluyendo información sobre llamadas, SMS, tráfico de internet y el plan contratado.
+
+El proyecto corre dentro de un entorno virtual gestionado con **Pipenv**, lo que asegura un control eficiente de dependencias y versiones.
+
+El notebook principal se encuentra en GitHub:
+👉 [notebooks/megaline\_analysis.ipynb](https://github.com/cjhirashi/proyecto-sprint-5/blob/main/notebooks/megaline_analysis.ipynb)
 
 ---
 
@@ -51,6 +57,7 @@ El proyecto utiliza 5 tablas principales:
 * [Seaborn](https://seaborn.pydata.org/) – Gráficos estadísticos
 * [SciPy](https://scipy.org/) – Pruebas de hipótesis y estadística
 * [Jupyter Notebook](https://jupyter.org/) – Entorno de desarrollo interactivo
+* [Pipenv](https://pipenv.pypa.io/en/latest/) – Gestión de entornos y dependencias
 
 ---
 
@@ -63,10 +70,12 @@ El proyecto utiliza 5 tablas principales:
 │   ├── megaline_internet.csv
 │   ├── megaline_messages.csv
 │   ├── megaline_plans.csv
-│   └── megaline_users.csv
+│   ├── megaline_users.csv
 │   └── README.md
 ├── notebooks/
 │   └── megaline_analysis.ipynb   # Notebook principal del proyecto
+├── Pipfile
+├── Pipfile.lock
 └── README.md
 ```
 
@@ -77,15 +86,17 @@ El proyecto utiliza 5 tablas principales:
 1. **Clonar repositorio**
 
    ```bash
-   git clone https://github.com/cjhirashi/proyecto-sprint-5
+   git clone https://github.com/cjhirashi/proyecto-sprint-5.git
    cd proyecto-sprint-5
    ```
 
-2. **Abrir notebook en Jupyter**
+2. **Crear entorno e instalar dependencias con Pipenv**
 
    ```bash
-   jupyter notebook notebooks/megaline_analysis.ipynb
+   pipenv install
+   pipenv shell
    ```
+
 
 ---
 
