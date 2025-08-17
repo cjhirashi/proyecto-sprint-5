@@ -80,7 +80,7 @@ El proyecto utiliza 5 tablas principales (ver detalle en [/data/README.md](/data
 
 ---
 
-## ▶️ Ejecución
+## ▶️ Instalación y uso
 
 1. **Clonar repositorio**
 
