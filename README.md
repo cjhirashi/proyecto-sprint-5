@@ -36,7 +36,7 @@ El notebook principal se encuentra en GitHub:
 
 ## 📂 Diccionario de datos
 
-El proyecto utiliza 5 tablas principales:
+El proyecto utiliza 5 tablas principales (ver detalle en [/data/README.md](/data/README.md)):
 
 | Tabla        | Descripción                                                                      |
 | ------------ | -------------------------------------------------------------------------------- |
