@@ -4,7 +4,6 @@
 [![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green?logo=pandas)](https://pandas.pydata.org/)
 [![NumPy](https://img.shields.io/badge/NumPy-Numerical-lightblue?logo=numpy)](https://numpy.org/)
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange?logo=plotly)](https://matplotlib.org/)
-[![Seaborn](https://img.shields.io/badge/Seaborn-Stats%20Plots-teal?logo=python)](https://seaborn.pydata.org/)
 [![SciPy](https://img.shields.io/badge/SciPy-Statistics-purple?logo=scipy)](https://scipy.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)](https://jupyter.org/)
 [![Pipenv](https://img.shields.io/badge/Pipenv-Environment-lightgrey?logo=pypi)](https://pipenv.pypa.io/en/latest/)
@@ -40,7 +39,6 @@ Acceso al Notebook: [notebooks/megaline\_analysis.ipynb](https://github.com/cjhi
 * [Pandas](https://pandas.pydata.org/)
 * [NumPy](https://numpy.org/)
 * [Matplotlib](https://matplotlib.org/)
-* [Seaborn](https://seaborn.pydata.org/)
 * [SciPy](https://scipy.org/)
 * [Jupyter Notebook](https://jupyter.org/)
 * [Pipenv](https://pipenv.pypa.io/en/latest/) – gestión de entornos y dependencias
@@ -83,11 +81,6 @@ Acceso al Notebook: [notebooks/megaline\_analysis.ipynb](https://github.com/cjhi
    pipenv shell
    ```
 
-3. **Abrir notebook en Jupyter**
-
-   ```bash
-   jupyter notebook notebooks/megaline_analysis.ipynb
-   ```
 
 ---
 
