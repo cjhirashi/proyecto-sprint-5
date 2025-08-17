@@ -77,7 +77,7 @@ El proyecto utiliza 5 tablas principales:
 
    ```bash
    git clone https://github.com/cjhirashi/proyecto-sprint-5
-   proyecto-sprint-5
+   cd proyecto-sprint-5
    ```
 
 2. **Abrir notebook en Jupyter**
